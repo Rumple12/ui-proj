@@ -1,0 +1,79 @@
+\documentclass[a4paper,12pt,oneside]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage[margin=25mm]{geometry}
+\usepackage{graphicx}
+\usepackage{cite}
+\usepackage[hidelinks]{hyperref}
+
+\linespread{1.1}
+\setlength{\parskip}{4pt}
+\setcounter{tocdepth}{2}
+\setcounter{secnumdepth}{2}
+\hypersetup{
+  pdftitle={Omnisound: User-Centred Design and Evaluation of a Unified Audio Interface},
+  pdfauthor={Obid Alrhman Aljabi, Yacoub Dawli, Sarshar Chavoshi Rad},
+  pdfsubject={DT168G / IU127G project report, Group 1},
+  pdfkeywords={Omnisound, human-computer interaction, interaction design}
+}
+
+\begin{document}
+\renewcommand{\bibname}{References}
+
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+  \centering
+  {\large Mid Sweden University (Mittuniversitetet)\par}
+  \vspace{24mm}
+  {\Huge\bfseries Omnisound\par}
+  \vspace{8mm}
+  {\Large User-Centred Design and Evaluation\par
+    of a Unified Audio Interface\par}
+  \vspace{20mm}
+  {\large DT168G / IU127G\par}
+  {\large Human-Computer Interaction / Interaction Design\par}
+  \vspace{10mm}
+  {\large Project group: Group 1\par}
+  \vspace{10mm}
+  {\large Obid Alrhman Aljabi\par
+    Yacoub Dawli\par
+    Sarshar Chavoshi Rad\par}
+  \vfill
+  Degree programme(s): [TO CONFIRM]\par
+  Examiner: [TO CONFIRM]\par
+  \vspace{8mm}
+  {\large October 2026\par}
+\end{titlepage}
+
+\pagenumbering{roman}
+\hypersetup{pageanchor=true}
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\noindent\textbf{TODO:} Write an abstract of approximately 250 words after
+the results and discussion are complete. It should summarise the project's
+background, purpose, method, results and conclusions.
+
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\include{chapters/01-introduction}
+\include{chapters/02-theory}
+\include{chapters/03-method}
+\include{chapters/04-design}
+\include{chapters/05-results}
+\include{chapters/06-discussion}
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{References}
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\appendix
+% Add appendix files here when supporting material has been selected.
+% Example: \include{appendices/interview-guide}
+
+\end{document}

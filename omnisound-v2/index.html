@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b10">
+  <meta name="description" content="Omnisound - a unified music, podcast and audiobook prototype.">
+  <title>Omnisound</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23caff67'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23090b10' stroke-width='7'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23090b10'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <button class="brand" data-route="home" aria-label="Omnisound home">
+        <span class="brand-mark" aria-hidden="true"><span></span></span>
+        <span>OMNI<span>SOUND</span></span>
+      </button>
+
+      <nav class="nav-group" aria-label="Main">
+        <button class="nav-item is-active" data-route="home" aria-label="Home" aria-current="page">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 10.5 12 3l8.5 7.5v9a1.5 1.5 0 0 1-1.5 1.5h-4.5v-6h-5v6H5a1.5 1.5 0 0 1-1.5-1.5z"/></svg>
+          <span>Home</span>
+        </button>
+        <button class="nav-item" data-route="search" aria-label="Search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+          <span>Search</span>
+        </button>
+        <button class="nav-item" data-route="library" aria-label="Library">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4.5h4v15H4zM10.5 4.5h4v15h-4zM17.3 4l3.2 1.2-5.1 14.2-3.2-1.1z"/></svg>
+          <span>Library</span>
+        </button>
+      </nav>
+
+      <div class="nav-divider"></div>
+      <p class="nav-label">Browse</p>
+      <nav class="nav-group nav-categories" aria-label="Audio categories">
+        <button class="nav-item" data-route="category" data-category="Music" aria-label="Music"><span class="category-dot music-dot"></span><span>Music</span></button>
+        <button class="nav-item" data-route="category" data-category="Podcast" aria-label="Podcasts"><span class="category-dot podcast-dot"></span><span>Podcasts</span></button>
+        <button class="nav-item" data-route="category" data-category="Audiobook" aria-label="Audiobooks"><span class="category-dot book-dot"></span><span>Audiobooks</span></button>
+      </nav>
+
+      <button class="nav-item settings-button" data-action="settings" aria-label="Settings">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19 13.5v-3l-2-.6a7 7 0 0 0-.7-1.6l1-1.8-2.1-2.1-1.8 1A7 7 0 0 0 12 5l-.6-2h-3l-.6 2a7 7 0 0 0-1.6.7l-1.8-1-2.1 2.1 1 1.8A7 7 0 0 0 3 10l-2 .6v3l2 .6a7 7 0 0 0 .7 1.6l-1 1.8 2.1 2.1 1.8-1a7 7 0 0 0 1.6.7l.6 2h3l.6-2a7 7 0 0 0 1.6-.7l1.8 1 2.1-2.1-1-1.8a7 7 0 0 0 .7-1.6z"/></svg>
+        <span>Settings</span>
+      </button>
+    </aside>
+
+    <div class="workspace">
+      <header class="topbar">
+        <div class="route-context">
+          <p>Welcome back</p>
+          <h1 id="page-title">For you</h1>
+        </div>
+        <button class="top-search" data-route="search" aria-label="Open search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg>
+          <span>Search music, podcasts, audiobooks</span>
+          <kbd>/</kbd>
+        </button>
+        <button class="avatar" aria-label="Profile for Alex">AJ</button>
+      </header>
+
+      <main id="app-view" tabindex="-1"></main>
+    </div>
+  </div>
+
+  <section id="mini-player" class="mini-player" aria-label="Mini player" hidden></section>
+  <aside id="queue-panel" class="queue-panel" aria-label="Up next" aria-hidden="true" hidden></aside>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>

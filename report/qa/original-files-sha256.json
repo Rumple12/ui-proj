@@ -1,0 +1,302 @@
+[
+  {
+    "path": "70205971-06a0-47f9-88a4-6ac91393202e.png",
+    "size": 178247,
+    "sha256": "3d9bcae500347751307a3577dfa768ec6abb524bd8dfe68761cd50f5fefafcf6"
+  },
+  {
+    "path": "Codex Image Aug 28, 2026, 01_42_37 PM.png",
+    "size": 357105,
+    "sha256": "451f33708b7eea6dd3158e74231c787a50971db54d0a194ca17b8d2b1d134b05"
+  },
+  {
+    "path": "e2c668e7-70df-49a7-9e10-8c31f58fcb16.png",
+    "size": 264656,
+    "sha256": "847a4df0f5ab320cf7bc316436e73cbecae755b32308e1b955bb48ecf8c476df"
+  },
+  {
+    "path": "f03bd682-bf2e-46a1-a2d2-b6068db7bff6.png",
+    "size": 318013,
+    "sha256": "17b6100199f8ac144e46b286f2deacb9a4f22b6963f54cee18982099af46e600"
+  },
+  {
+    "path": "IMG_20260924_133307.webp",
+    "size": 64236,
+    "sha256": "aadbbaad6b8f2a4691fe4a1d608c66f2c1a9ffdcb3b887b276172e018638486c"
+  },
+  {
+    "path": "IMG_20260924_133311.webp",
+    "size": 42710,
+    "sha256": "21768a9a96b5d96478da79a5bca82bb6a8b3504a08204f4d3cc502c6b40893af"
+  },
+  {
+    "path": "IMG_20260924_133412.jpg",
+    "size": 41403,
+    "sha256": "dfbb314f58d51ae0870d2f68c07eeec6cfe5e7d5dc39b6d1930578f7a94a594b"
+  },
+  {
+    "path": "index.html",
+    "size": 4064,
+    "sha256": "87b5f65db98a5612a46dd155599d04c71fe96e49a5c59e2796141d344b7d53b2"
+  },
+  {
+    "path": "omnisound-v2/index.html",
+    "size": 4064,
+    "sha256": "87b5f65db98a5612a46dd155599d04c71fe96e49a5c59e2796141d344b7d53b2"
+  },
+  {
+    "path": "omnisound-v2/README.md",
+    "size": 3080,
+    "sha256": "90c516dd819875238b5f20dac60db79a84a9396de26bd94e8a85cd1667547555"
+  },
+  {
+    "path": "omnisound-v2/script.js",
+    "size": 26391,
+    "sha256": "1b8f4631564b3345b337d4c17144f39ca91e2d856094d7abcedf1a7ef26a6bcb"
+  },
+  {
+    "path": "omnisound-v2/styles.css",
+    "size": 27931,
+    "sha256": "5a1e12ab92b18441e6f692cc69c99e78a1c6f225e8fd8541350ef8cdff1a5d76"
+  },
+  {
+    "path": "omnisound-v2.zip",
+    "size": 17400,
+    "sha256": "09b041cbc9b50b7dd707e507fac9acd9227d40878ca082ecba6abada8a0a6e2d"
+  },
+  {
+    "path": "Omnisound_ProjectSession4_completed_final.pdf",
+    "size": 298814,
+    "sha256": "1369c3d41ed2d50289c1766081fa237901eef7f0c5bac066b9916c43d05d8408"
+  },
+  {
+    "path": "Omnisound_ProjectSession4_filled.pdf",
+    "size": 29168,
+    "sha256": "92f67fe0b1b262a663a7126ee0943385e6cc15c30d32241a65f11f88a609877c"
+  },
+  {
+    "path": "ProjectSession4_20251006_Prototyping.pdf",
+    "size": 511882,
+    "sha256": "dc526b3bae247a53cb6e6625d31f019be602cbfdfee05b6abbc1c3a93e72cff8"
+  },
+  {
+    "path": "README.md",
+    "size": 2143,
+    "sha256": "320907bed09438444d324d901af45212d1292a189bc84a7fb0924cc97d855a9b"
+  },
+  {
+    "path": "script.js",
+    "size": 25636,
+    "sha256": "aefbba901fcb9de8b7d819e5cbffe838409e0060ab90afe24cfcf70a494feee6"
+  },
+  {
+    "path": "styles.css",
+    "size": 27203,
+    "sha256": "27150730285237ffba94c03de71f779f0948ad13cb6f80ebaac94080b30f3d37"
+  },
+  {
+    "path": "ui proj/deliverabs/Proj alt assignment2 (group1).pdf",
+    "size": 441976,
+    "sha256": "b83829654b07dca4c0e9c57dcca857c5df534092981725296f5997a2b076764b"
+  },
+  {
+    "path": "ui proj/DT168G, IU127G Rapportstruktur.pdf",
+    "size": 302326,
+    "sha256": "15848fc25f7542db467a34ccd3a12ab271490b4ec3cddf0fc00c962b17a5f8ff"
+  },
+  {
+    "path": "ui proj/emil email 1.png",
+    "size": 60844,
+    "sha256": "d0c83cbf252b22b978a50cd93a22a10b6a3e23548a7c1986cb8666b4229e01c9"
+  },
+  {
+    "path": "ui proj/emil email 2.png",
+    "size": 45313,
+    "sha256": "b630ef68aa310058123361e69d0350d621ebde473de657a66cced542a0e0751a"
+  },
+  {
+    "path": "ui proj/image.png",
+    "size": 195065,
+    "sha256": "c49fd70a78d938880f121bb1ba5367e815764306ad014febb697911134668599"
+  },
+  {
+    "path": "ui proj/MDI\u00d6vning20140929.pdf",
+    "size": 175950,
+    "sha256": "715d403aafa9590fe0e79e2c8d5a4ce73b2abc71693a9acdf669cb1e310c1b36"
+  },
+  {
+    "path": "ui proj/P3 Projekt.pdf",
+    "size": 249939,
+    "sha256": "1c9033b30a270c2552220ce5ed347378810b790888406e388325535aaaa6bbf1"
+  },
+  {
+    "path": "ui proj/Proj alt assignment2 (group1).docx",
+    "size": 40345,
+    "sha256": "b6a09f37d526fa55140fe9b3e029a6b05562faf3e255dea6e076f9b25eec8458"
+  },
+  {
+    "path": "ui proj/ProjectSession1_20250915_ProjectStart.pdf",
+    "size": 1110860,
+    "sha256": "e372c066641549f22cd13fc049314a2e78a911744cbee31fafa1ce8b4b71d9e2"
+  },
+  {
+    "path": "ui proj/ProjectSession2_20250919_DataCollection.pdf",
+    "size": 791004,
+    "sha256": "b3cf71e4c3705e6b5da8797d254aed53b4f7b8779d1cabeb7b407976ecc92153"
+  },
+  {
+    "path": "ui proj/ProjectSession3_20250924_DataAnalysis.pdf",
+    "size": 1293565,
+    "sha256": "547a7108c0bcb39b1040395131fd8f66aa08a6bf3142c287f939aff013588d9f"
+  },
+  {
+    "path": "ui proj/ProjectSession4_20251006_Prototyping.pdf",
+    "size": 511882,
+    "sha256": "dc526b3bae247a53cb6e6625d31f019be602cbfdfee05b6abbc1c3a93e72cff8"
+  },
+  {
+    "path": "ui proj/ProjectSession4_handIn.pdf",
+    "size": 28619,
+    "sha256": "5dad7bce79de4c4427f11e1218378462fdc8d5a51dda19722f66ecb5e41ed194"
+  },
+  {
+    "path": "ui proj/ProjectSession5_20251009_UsabilityTests.pdf",
+    "size": 405001,
+    "sha256": "c529c2145ab67bb39d397a5d9e8b19480e05154526ca381201099ce5ec1e27cc"
+  },
+  {
+    "path": "ui proj/Projektarbete_ M\u00e4nniska-datorinteraktion HT26 (DT168G, IU127G).pdf",
+    "size": 104799,
+    "sha256": "a0a8d3bf947f2e937ef69a7a72f828e6db0b8f4d3da72906994ffe8a18197c4a"
+  },
+  {
+    "path": "ui proj/sesh 4 hand in/70205971-06a0-47f9-88a4-6ac91393202e.png",
+    "size": 178247,
+    "sha256": "3d9bcae500347751307a3577dfa768ec6abb524bd8dfe68761cd50f5fefafcf6"
+  },
+  {
+    "path": "ui proj/sesh 4 hand in/Codex Image Aug 28, 2026, 01_42_37 PM (1).png",
+    "size": 357105,
+    "sha256": "451f33708b7eea6dd3158e74231c787a50971db54d0a194ca17b8d2b1d134b05"
+  },
+  {
+    "path": "ui proj/sesh 4 hand in/Codex Image Aug 28, 2026, 01_42_37 PM.png",
+    "size": 357105,
+    "sha256": "451f33708b7eea6dd3158e74231c787a50971db54d0a194ca17b8d2b1d134b05"
+  },
+  {
+    "path": "ui proj/sesh 4 hand in/e2c668e7-70df-49a7-9e10-8c31f58fcb16.png",
+    "size": 264656,
+    "sha256": "847a4df0f5ab320cf7bc316436e73cbecae755b32308e1b955bb48ecf8c476df"
+  },
+  {
+    "path": "ui proj/sesh 4 hand in/f03bd682-bf2e-46a1-a2d2-b6068db7bff6.png",
+    "size": 318013,
+    "sha256": "17b6100199f8ac144e46b286f2deacb9a4f22b6963f54cee18982099af46e600"
+  },
+  {
+    "path": "ui proj/sesh 4 hand in/Omnisound_ProjectSession4_completed_final (1).pdf",
+    "size": 298814,
+    "sha256": "1369c3d41ed2d50289c1766081fa237901eef7f0c5bac066b9916c43d05d8408"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/IMG_20260924_133307.webp",
+    "size": 64236,
+    "sha256": "aadbbaad6b8f2a4691fe4a1d608c66f2c1a9ffdcb3b887b276172e018638486c"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/IMG_20260924_133311.webp",
+    "size": 42710,
+    "sha256": "21768a9a96b5d96478da79a5bca82bb6a8b3504a08204f4d3cc502c6b40893af"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/IMG_20260924_133412.jpg",
+    "size": 41403,
+    "sha256": "dfbb314f58d51ae0870d2f68c07eeec6cfe5e7d5dc39b6d1930578f7a94a594b"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/index.html",
+    "size": 4064,
+    "sha256": "87b5f65db98a5612a46dd155599d04c71fe96e49a5c59e2796141d344b7d53b2"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/Omnisound_ProjectSession4_filled.pdf",
+    "size": 29168,
+    "sha256": "92f67fe0b1b262a663a7126ee0943385e6cc15c30d32241a65f11f88a609877c"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/ProjectSession4_20251006_Prototyping.pdf",
+    "size": 511882,
+    "sha256": "dc526b3bae247a53cb6e6625d31f019be602cbfdfee05b6abbc1c3a93e72cff8"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/README.md",
+    "size": 2143,
+    "sha256": "320907bed09438444d324d901af45212d1292a189bc84a7fb0924cc97d855a9b"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/script.js",
+    "size": 25636,
+    "sha256": "aefbba901fcb9de8b7d819e5cbffe838409e0060ab90afe24cfcf70a494feee6"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/styles.css",
+    "size": 27203,
+    "sha256": "27150730285237ffba94c03de71f779f0948ad13cb6f80ebaac94080b30f3d37"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/v2/index.html",
+    "size": 4064,
+    "sha256": "87b5f65db98a5612a46dd155599d04c71fe96e49a5c59e2796141d344b7d53b2"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/v2/README.md",
+    "size": 3080,
+    "sha256": "90c516dd819875238b5f20dac60db79a84a9396de26bd94e8a85cd1667547555"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/v2/script.js",
+    "size": 26248,
+    "sha256": "e61a2ccfc6fb28eefbb2482fb9753ae937f53da3c39b59ec2ca1208b91105de4"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/v2/Sk\u00e4rmbild 2026-10-12 161036.png",
+    "size": 259955,
+    "sha256": "772ffd533862ae471ed8cbcd558bc4b44ed80a0fe6a49af41189e45ea06e06cd"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype/v2/styles.css",
+    "size": 27931,
+    "sha256": "5a1e12ab92b18441e6f692cc69c99e78a1c6f225e8fd8541350ef8cdff1a5d76"
+  },
+  {
+    "path": "ui proj/sesh 4 prototype.zip",
+    "size": 655430,
+    "sha256": "26ffc0f1354a81b34b93a2a0589d56cb0e683be0d25f093af4680ff2fea49f91"
+  },
+  {
+    "path": "V1/index.html",
+    "size": 4064,
+    "sha256": "87b5f65db98a5612a46dd155599d04c71fe96e49a5c59e2796141d344b7d53b2"
+  },
+  {
+    "path": "V1/README.md",
+    "size": 2143,
+    "sha256": "320907bed09438444d324d901af45212d1292a189bc84a7fb0924cc97d855a9b"
+  },
+  {
+    "path": "V1/script.js",
+    "size": 25636,
+    "sha256": "aefbba901fcb9de8b7d819e5cbffe838409e0060ab90afe24cfcf70a494feee6"
+  },
+  {
+    "path": "V1/styles.css",
+    "size": 27203,
+    "sha256": "27150730285237ffba94c03de71f779f0948ad13cb6f80ebaac94080b30f3d37"
+  },
+  {
+    "path": "V1.zip",
+    "size": 16688,
+    "sha256": "f5b286b3544c2cbe20e2a61014acbfbfbb455ec8997d0b55d0a371f53a02ad0c"
+  }
+]
