@@ -21,6 +21,20 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{spotifyaudiobooks2025}
+\BIBentryALTinterwordspacing
+{Spotify}, ``Spotify expands audiobook access for premium subscribers in 5 more
+  {European} countries,'' Spotify Newsroom, Nov. 2025, published November 18,
+  2025. Accessed October 13, 2026. [Online]. Available:
+  \url{https://newsroom.spotify.com/2025-11-18/audiobooks-in-premium-sweden-denmark-finland-iceland-monaco/}
+\BIBentrySTDinterwordspacing
+
+\bibitem{appleapps2026}
+\BIBentryALTinterwordspacing
+{Apple}, ``Apps by {Apple},'' Apple Official Website, accessed October 13,
+  2026. [Online]. Available: \url{https://www.apple.com/apps/}
+\BIBentrySTDinterwordspacing
+
 \bibitem{omnisoundconcept}
 O.~A. Aljabi, Y.~Dawli, and S.~Chavoshi~Rad, ``{Omnisound}: Project session 4
   concept sheet,'' Unpublished project document, Group 1, completed final
@@ -46,10 +60,5 @@ J.~\AA{}hlander, ``Projekt -- anv\"andargr\"anssnitt:
 \bibitem{omnisoundtestv2}
 ------, ``{V2} usability testing,'' Unpublished project testing documentation,
   Group 1, step 7, second usability evaluation.
-
-\bibitem{interviewplan}
-O.~A. Aljabi, Y.~Dawli, and S.~Chavoshi~Rad, ``Alternative assignment for
-  project session 2,'' Unpublished data collection plan, Group 1,
-  DT168G/IU127G, submitted two-page PDF; planned interview roles on p. 2.
 
 \end{thebibliography}
