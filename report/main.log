@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  16 OCT 2026 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  16 OCT 2026 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -482,19 +482,19 @@ Chapter 4.
 File: figures/lo-fi/initial-sketch-1.png Graphic file (type png)
 <use figures/lo-fi/initial-sketch-1.png>
 Package pdftex.def Info: figures/lo-fi/initial-sketch-1.png  used on input line
- 45.
+ 44.
 (pdftex.def)             Requested size: 423.37369pt x 190.27715pt.
 <figures/lo-fi/initial-sketch-2.png, id=312, 1766.6pt x 793.96625pt>
 File: figures/lo-fi/initial-sketch-2.png Graphic file (type png)
 <use figures/lo-fi/initial-sketch-2.png>
 Package pdftex.def Info: figures/lo-fi/initial-sketch-2.png  used on input line
- 48.
+ 47.
 (pdftex.def)             Requested size: 423.37369pt x 190.27715pt.
 <figures/lo-fi/initial-sketch-3.jpg, id=313, 820.06375pt x 368.37625pt>
 File: figures/lo-fi/initial-sketch-3.jpg Graphic file (type jpg)
 <use figures/lo-fi/initial-sketch-3.jpg>
 Package pdftex.def Info: figures/lo-fi/initial-sketch-3.jpg  used on input line
- 51.
+ 50.
 (pdftex.def)             Requested size: 423.37369pt x 190.18523pt.
 [15
 
@@ -506,12 +506,12 @@ png> <./figures/lo-fi/initial-sketch-3.jpg>]
 <figures/v1/search-focus.png, id=325, 772.8875pt x 306.14375pt>
 File: figures/v1/search-focus.png Graphic file (type png)
 <use figures/v1/search-focus.png>
-Package pdftex.def Info: figures/v1/search-focus.png  used on input line 81.
+Package pdftex.def Info: figures/v1/search-focus.png  used on input line 80.
 (pdftex.def)             Requested size: 409.71692pt x 162.2881pt.
 <figures/v1/library-focus.png, id=326, 828.09375pt x 401.5pt>
 File: figures/v1/library-focus.png Graphic file (type png)
 <use figures/v1/library-focus.png>
-Package pdftex.def Info: figures/v1/library-focus.png  used on input line 84.
+Package pdftex.def Info: figures/v1/library-focus.png  used on input line 83.
 (pdftex.def)             Requested size: 409.71692pt x 198.65427pt.
  [17
 
@@ -520,7 +520,7 @@ G copy)>]
 <figures/v1/home-overview.png, id=333, 1430.34375pt x 702.625pt>
 File: figures/v1/home-overview.png Graphic file (type png)
 <use figures/v1/home-overview.png>
-Package pdftex.def Info: figures/v1/home-overview.png  used on input line 111.
+Package pdftex.def Info: figures/v1/home-overview.png  used on input line 109.
 (pdftex.def)             Requested size: 455.24411pt x 223.62238pt.
  [18
 
@@ -528,17 +528,17 @@ Package pdftex.def Info: figures/v1/home-overview.png  used on input line 111.
 <figures/v1/detail-focus.png, id=343, 542.025pt x 265.99374pt>
 File: figures/v1/detail-focus.png Graphic file (type png)
 <use figures/v1/detail-focus.png>
-Package pdftex.def Info: figures/v1/detail-focus.png  used on input line 141.
+Package pdftex.def Info: figures/v1/detail-focus.png  used on input line 139.
 (pdftex.def)             Requested size: 218.51521pt x 107.23576pt.
 <figures/v1/resume-focus.png, id=344, 552.0625pt x 331.2375pt>
 File: figures/v1/resume-focus.png Graphic file (type png)
 <use figures/v1/resume-focus.png>
-Package pdftex.def Info: figures/v1/resume-focus.png  used on input line 146.
+Package pdftex.def Info: figures/v1/resume-focus.png  used on input line 144.
 (pdftex.def)             Requested size: 218.51521pt x 131.10777pt.
 <figures/v1/player-focus.png, id=345, 772.8875pt x 627.34375pt>
 File: figures/v1/player-focus.png Graphic file (type png)
 <use figures/v1/player-focus.png>
-Package pdftex.def Info: figures/v1/player-focus.png  used on input line 150.
+Package pdftex.def Info: figures/v1/player-focus.png  used on input line 148.
 (pdftex.def)             Requested size: 345.98302pt x 280.82791pt.
  [19
 
@@ -547,13 +547,13 @@ Package pdftex.def Info: figures/v1/player-focus.png  used on input line 150.
 <figures/v1/home-comparison.png, id=354, 737.75626pt x 511.9125pt>
 File: figures/v1/home-comparison.png Graphic file (type png)
 <use figures/v1/home-comparison.png>
-Package pdftex.def Info: figures/v1/home-comparison.png  used on input line 209
+Package pdftex.def Info: figures/v1/home-comparison.png  used on input line 206
 .
 (pdftex.def)             Requested size: 418.82375pt x 290.61368pt.
 <figures/v2/home-comparison.png, id=355, 737.75626pt x 511.9125pt>
 File: figures/v2/home-comparison.png Graphic file (type png)
 <use figures/v2/home-comparison.png>
-Package pdftex.def Info: figures/v2/home-comparison.png  used on input line 212
+Package pdftex.def Info: figures/v2/home-comparison.png  used on input line 209
 .
 (pdftex.def)             Requested size: 418.82375pt x 290.61368pt.
  [20
@@ -565,12 +565,12 @@ ng (PNG copy)>]
 <figures/v2/save-focus.png, id=372, 286.06876pt x 220.825pt>
 File: figures/v2/save-focus.png Graphic file (type png)
 <use figures/v2/save-focus.png>
-Package pdftex.def Info: figures/v2/save-focus.png  used on input line 257.
+Package pdftex.def Info: figures/v2/save-focus.png  used on input line 253.
 (pdftex.def)             Requested size: 195.75163pt x 151.1092pt.
 <figures/v2/saved-focus.png, id=373, 286.06876pt x 220.825pt>
 File: figures/v2/saved-focus.png Graphic file (type png)
 <use figures/v2/saved-focus.png>
-Package pdftex.def Info: figures/v2/saved-focus.png  used on input line 262.
+Package pdftex.def Info: figures/v2/saved-focus.png  used on input line 258.
 (pdftex.def)             Requested size: 195.75163pt x 151.1092pt.
 ) [22
 
@@ -613,7 +613,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  10863 strings out of 467872
  178069 string characters out of 5418391
- 603167 words of memory out of 5000000
+ 603075 words of memory out of 5000000
  39478 multiletter control sequences out of 15000+600000
  674682 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -627,7 +627,7 @@ c/lm/lmr12.pfb><C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /lm/lmr17.pfb><C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 lm/lmri12.pfb><C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 lm/lmsy10.pfb>
-Output written on main.pdf (30 pages, 2700909 bytes).
+Output written on main.pdf (30 pages, 2700749 bytes).
 PDF statistics:
  474 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)

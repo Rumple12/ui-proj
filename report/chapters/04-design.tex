@@ -17,8 +17,7 @@ on whether the user is browsing or looking for a particular item.
 The chosen interface combines these ideas: cards in separate Home sections,
 a list of search results and one Library with content filters. Each audio
 category has a browsing route, while saving follows a shared pattern.
-This direction still needed evaluation; choosing categories or cards did
-not establish that they would always be easier to use.
+This gave us a starting design that we could test and improve.
 
 \section{Lo-Fi Sketches}
 \label{sec:design-sketches}
@@ -82,9 +81,8 @@ audio types without requiring different saving and playback patterns.
   \vspace{3mm}
   {\small\textbf{(b) V1 Library: Weezer after saving}\par}
   \includegraphics[width=0.90\textwidth]{figures/v1/library-focus.png}
-  \caption{Search and Library in the real V1 prototype. The captures are
-  cropped to show the query, filters, result and saved collection at a
-  readable size.}
+  \caption{V1 Search and Library, cropped to show the query, filters,
+  result and saved collection.}
   \label{fig:design-search-library}
 \end{figure}
 
@@ -109,7 +107,7 @@ visible area.
 \begin{figure}[!htbp]
   \centering
   \includegraphics[width=\textwidth]{figures/v1/home-overview.png}
-  \caption{The real V1 Home screen, showing the persistent navigation,
+  \caption{The V1 Home screen, showing the persistent navigation,
   large introductory banner and unfinished content. The capture shows the
   upper part of Home; further category rows continue below.}
   \label{fig:design-v1-home}
@@ -148,7 +146,7 @@ service.
   \vspace{3mm}
   {\small\textbf{(c) Full player after Resume}\par}
   \includegraphics[width=0.76\textwidth]{figures/v1/player-focus.png}
-  \caption{Real V1 captures of the two workflows: Save beside Play on the
+  \caption{V1 saving and resuming workflows: Save beside Play on the
   Weezer detail page, progress and Resume on the audiobook detail page,
   and the resulting full-player view. Crops focus on the relevant content
   and controls.}
@@ -179,9 +177,8 @@ Section~\ref{sec:cognition-mental-models}.
 
 Recognition also shaped the screens. Titles and covers help users identify
 Library items, and progress bars identify unfinished audio. These cues
-reduce the need to remember exact titles or listening positions. For
-affordances and signifiers, the buttons make actions possible, while their
-labels and icons communicate those actions. Play and Resume state what will
+reduce the need to remember exact titles or listening positions. Buttons such as Play, Resume and Save use familiar icons and clear labels
+to show users what they do. Play and Resume state what will
 happen; the heart with Save gives the icon a written meaning. The redesign
 addressed cues that needed more emphasis.
 
@@ -210,7 +207,7 @@ short introduction to Omnisound.
   \vspace{3mm}
   {\small\textbf{(b) V2 Home}\par}
   \includegraphics[width=0.92\textwidth]{figures/v2/home-comparison.png}
-  \caption{Home before and after the redesign. Both real prototypes were
+  \caption{Home before and after the redesign. Both prototypes were
   captured at a $1440\times900$ viewport and 100\% zoom, then cropped to
   the same region of the banner and first two unfinished cards, at the same
   scale. The smaller banner and
@@ -226,9 +223,8 @@ result. Figure~\ref{fig:design-save-comparison} shows the revised states.
 
 The group kept the sidebar, Search, Library and audio categories because
 the first evaluation supported these routes. Library also provided another
-way to reach unfinished content. The second test examined whether the
-focused changes helped during use; appearance alone could not establish
-that.
+way to reach unfinished content. We then tested V2 to see whether these changes made the interface easier
+to use.
 
 \clearpage
 \section{Hi-Fi Prototype V2}
@@ -261,7 +257,7 @@ immediate feedback as well as a state that remains visible on the page.
     {\small\textbf{(b) After saving}\par}
     \includegraphics[width=\linewidth]{figures/v2/saved-focus.png}
   \end{minipage}
-  \caption{The Save and Saved states in the real V2 prototype, captured
+  \caption{The Save and Saved states in V2, captured
   before and after saving the same item. Matching crops preserve the detail
   context; only the saving control changes. The temporary confirmation has
   disappeared in the second capture.}
