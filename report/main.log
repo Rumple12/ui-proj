@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  13 OCT 2026 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.5.25)  13 OCT 2026 16:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -455,17 +455,17 @@ Chapter 1.
 
  (chapters/02-theory.tex
 Chapter 2.
-) [5
+[5
 
 
 
 
-]
+] [6] [7]) [8]
 \openout2 = `chapters/03-method.aux'.
 
  (chapters/03-method.tex
 Chapter 3.
-) [6
+) [9
 
 
 
@@ -475,7 +475,7 @@ Chapter 3.
 
  (chapters/04-design.tex
 Chapter 4.
-) [7
+) [10
 
 
 
@@ -485,7 +485,7 @@ Chapter 4.
 
  (chapters/05-results.tex
 Chapter 5.
-) [8
+) [11
 
 
 
@@ -495,47 +495,42 @@ Chapter 5.
 
  (chapters/06-discussion.tex
 Chapter 6.
-) [9
+) [12
 
 
 
 
-] (main.bbl
-Underfull \hbox (badness 1107) in paragraph at lines 57--59
-[]\T1/lmr/m/n/12 ------, ``Om-nisound -- it-er-a-tion 2: Pro-to-type doc-u-men-
-ta-tion,'' In-ter-nal project
- []
-
-) [10
+] (main.bbl [13
 
 
 
 
-] (main.aux (chapters/01-introduction.aux) (chapters/02-theory.aux)
-(chapters/03-method.aux) (chapters/04-design.aux) (chapters/05-results.aux)
-(chapters/06-discussion.aux))
+]) [14] (main.aux (chapters/01-introduction.aux)
+(chapters/02-theory.aux) (chapters/03-method.aux) (chapters/04-design.aux)
+(chapters/05-results.aux) (chapters/06-discussion.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 25B14698724414D8230F4E500D8AF39E;1206.
+(rerunfilecheck)             Checksum: 6E68936F1071327AB24360E56E13B4C5;2419.
  ) 
 Here is how much of TeX's memory you used:
- 10638 strings out of 467872
- 172659 string characters out of 5418391
- 597258 words of memory out of 5000000
- 39312 multiletter control sequences out of 15000+600000
- 660830 words of font info for 59 fonts, out of 8000000 for 9000
+ 10674 strings out of 467872
+ 173260 string characters out of 5418391
+ 599848 words of memory out of 5000000
+ 39331 multiletter control sequences out of 15000+600000
+ 665092 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,837b,491s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,79p,837b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pf
 b><C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb
 ><C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb>
+<C:/Users/Jake_/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
 
-Output written on main.pdf (13 pages, 123723 bytes).
+Output written on main.pdf (17 pages, 169748 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 

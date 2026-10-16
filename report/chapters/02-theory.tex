@@ -1,3 +1,198 @@
 \chapter{Theory}
 \label{chap:theory}
-\noindent\textbf{TODO:} Chapter not yet written.
+
+\section{User-Centred Design and Iteration}
+\label{sec:ucd-iteration}
+
+User-centred design begins with understanding the people who will use an
+interface, what they want to achieve and the circumstances in which they
+will use it. Rogers, Sharp and Preece explain that understanding people's
+activities and differences helps designers question assumptions about their
+needs \cite[pp.~16--17]{interactiondesign2023}. A target group therefore
+provides a starting point for research, rather than a reason to assume that
+all its members have the same habits or expectations.
+
+User needs and goals guide the requirements for an interface. Designers can
+then explore alternative ways to support those goals and represent the ideas
+in prototypes. Evaluation with intended users examines whether a proposed
+solution works as expected. A prototype is a candidate solution that can be
+tested by observing people using it \cite[Sec.~``What Is a Testable
+Prototype?'']{perniceprototypes}. This makes evaluation part of design,
+rather than a check reserved for the finished product.
+
+Iteration connects evaluation to further design decisions. Findings can lead
+to revised requirements, a different alternative or changes to an existing
+interface, followed by another evaluation \cite[Sec.~``Why Test a
+Prototype?'']{perniceprototypes}. Simply producing several versions does not
+establish this connection. A meaningful iteration should explain which
+problem motivated a change and examine whether the problem remains. This
+principle is relevant to Omnisound's student audience and its two evaluated
+high-fidelity prototype iterations.
+
+\section{Usability and User Experience}
+\label{sec:usability-ux}
+
+ISO 9241-11:2018 relates usability to specified users, goals and contexts of
+use through effectiveness, efficiency and satisfaction. These definitions
+are reproduced in ISO/TR 25060:2023 \cite[Sec.~3.1]{isocif2023}. Usability
+concerns what people can achieve with a system in a particular situation;
+it cannot be established from appearance alone.
+
+Effectiveness concerns accurate and complete achievement of a goal, while
+efficiency concerns the resources used in relation to that outcome
+\cite[Secs.~3.1.7--3.1.8]{isocif2023}. In an audio interface,
+effectiveness could involve successfully saving an item and finding it again.
+Efficiency concerns the time and effort required to reach that outcome.
+Successful completion and a straightforward route are thus different aspects
+of the same task. Satisfaction concerns how well the experience of use meets
+the user's needs and expectations \cite[Sec.~3.1.9]{isocif2023}.
+
+Learnability and utility are additional useful HCI concepts. Learnability
+concerns how easily a person can learn to use an interface, including getting
+started with unfamiliar controls. Utility concerns whether the available
+functions support what users need to do \cite[p.~21]{interactiondesign2023}.
+For example, a clearly labelled search may be easy to learn, while a way to
+return to unfinished audio addresses a functional need. These concepts
+complement the three ISO dimensions; they are not additional components of
+the ISO definition of usability.
+
+User experience includes people's perceptions and responses before, during
+and after interaction, including anticipated use
+\cite[Sec.~3.1.15]{isocif2023}. Satisfaction and frustration are relevant
+examples. Task completion alone cannot explain how an interaction feels.
+Together, these concepts provide a basis for examining searching, saving,
+retrieving and resuming audio without treating one measure as a complete
+assessment of the interface.
+
+\section{Interface Design Principles}
+\label{sec:interface-principles}
+
+Visibility means making the options needed for a task apparent to the user
+\cite[p.~28]{interactiondesign2023}. An available function has limited value
+if people cannot discover it. In an audio interface, recognisable navigation
+and information about listening progress can help users identify where to
+go and what can be continued.
+
+Feedback communicates the outcome of an action and the current system state
+\cite[Sec.~1]{nielsenheuristics}. After saving an item, a visible confirmation
+can help the user understand that the action succeeded. Feedback should be
+timely and clear enough to support the next decision, such as continuing to
+browse or opening the saved collection.
+
+Consistency means using similar terms, controls and behaviour for similar
+interactions, both within a product and in relation to familiar conventions
+\cite[Sec.~4]{nielsenheuristics}. A shared saving action across different audio
+types can support predictable interaction. Consistency still allows relevant
+differences in content, such as episode titles and audiobook chapters.
+
+Affordances concern the actions possible in the relationship between a
+person and an object. Signifiers are perceivable cues that communicate what
+can be done \cite{normansignifiers}. In a graphical interface, a button label,
+icon or visual treatment can signify an available action. A control's
+appearance and the action it actually supports should agree. This distinction
+helps explain why making an action available and making it understandable
+are separate design concerns.
+
+\section{Cognition and Mental Models}
+\label{sec:cognition-mental-models}
+
+A mental model is a user's understanding of how a system works. It supports
+predictions about what an action will do and develops through previous
+experience \cite[Sec.~``What Are Mental Models?'']{chanmentalmodels}. Users
+and designers may have different models of the same interface. Familiarity
+with another audio service may, for example, shape expectations about where
+saved items belong or whether opening unfinished content will resume it.
+Clear category names and navigation can help communicate how a shared audio
+collection is organised.
+
+Attention concerns which information people notice while pursuing a goal.
+Layout and visual prominence matter because competing information can reduce
+the visibility of relevant content \cite[Sec.~8]{nielsenheuristics}. A large
+introductory area and a route back to unfinished listening may compete for
+attention on the same screen. This provides a reason to examine the relative
+prominence of elements, without assuming that size alone determines what
+every user notices.
+
+Recognition over recall means displaying options and information that users
+can identify, rather than requiring them to remember details
+\cite[Sec.~6]{nielsenheuristics}. Visible content categories, item titles and
+progress information can support this recognition. For an audio collection,
+these cues may help someone distinguish saved material from unfinished
+listening and choose a suitable next action.
+
+\section{User Research and Evaluation Methods}
+\label{sec:research-evaluation}
+
+Qualitative interviews explore people's experiences, needs and expectations.
+Open questions and follow-up questions allow participants to explain what
+matters to them in their own terms \cite{rosalainterviews}. Interviews can
+inform requirements, but they collect accounts of behaviour rather than
+direct observations of interface use. Combining these accounts with
+observations can provide a fuller basis for understanding users.
+
+Affinity diagramming organises related observations or ideas into groups
+that express common themes \cite[Sec.~``Defining Affinity
+Diagramming'']{krauseaffinity}. It can help a design team make sense of
+interview notes and identify connections between needs. The grouping is an
+interpretation of the material, so observations that differ from a common
+theme should also remain visible in the analysis.
+
+Personas are research-informed representations of users' goals, needs and
+expectations. Qualitative personas draw on patterns in research to help a
+team focus its design decisions \cite{laubheimerpersonas}. They summarise
+relevant differences between users rather than reproducing every interview
+as a separate profile. A persona based only on assumptions should not be
+treated as evidence about the intended audience, and a qualitative persona
+does not establish how common a user type is in the wider population.
+
+Low-fidelity prototypes, such as paper sketches, represent early ideas with
+limited detail. They allow designers to explore layouts and navigation before
+investing in a detailed interface, and can be changed or discarded readily
+\cite[Sec.~``Benefits of Low-Fidelity Prototypes'']{perniceprototypes}.
+More detailed, interactive prototypes allow evaluation of specific controls
+and task flows \cite[Sec.~``Benefits of High-Fidelity
+Prototypes'']{perniceprototypes}. The appropriate level of detail depends on
+the question being investigated; visual polish alone does not establish that
+a design meets users' needs.
+
+Think-aloud usability testing asks participants to express their thoughts
+while completing representative tasks with an interface
+\cite[Sec.~``Defining Thinking Aloud Testing'']{nielsenthinkaloud}.
+Observations of actions, hesitation and comments can reveal difficulties and
+help explain why a participant chose a particular route. These observations
+can inform redesign, including changes to the visibility or interpretation
+of controls.
+
+Qualitative usability tests also have limitations. Speaking aloud creates
+an unusual situation, and prompts can influence behaviour
+\cite[Sec.~``Downsides of Think-Aloud'']{nielsenthinkaloud}.
+Findings from a small group can identify problems in the tested interactions,
+but do not automatically provide statistically generalisable conclusions.
+Task times and navigation steps should therefore be interpreted alongside
+observations and the test context, rather than treated as universal measures
+of performance.
+
+\section{Research Ethics}
+\label{sec:research-ethics}
+
+User research should respect participants' ability to make an informed and
+voluntary decision. Vetenskapsr\aa{}det's \emph{God forskningssed 2024}
+explains that people should understand what participation involves, how
+information will be handled and how to withdraw consent
+\cite[pp.~62--63]{vetenskapsradet2024}. Information should be understandable
+to the intended participants, who should have an opportunity to ask questions
+and decline or stop participation without pressure.
+
+Privacy requires responsible handling of participant information. Only
+information needed for the study should be collected, and it should be
+protected appropriately. Removing names alone may not prevent identification
+when other details can be combined \cite[pp.~66--67]{vetenskapsradet2024}.
+This matters when selecting background details, quotations and observations
+for a report.
+
+Accurate reporting is also an ethical responsibility. Observations and
+measurements should be presented honestly, with interpretations and
+limitations made clear \cite[pp.~11--12]{vetenskapsradet2024}.
+Results that challenge a design should be retained rather than adjusted to
+support a preferred conclusion. These principles provide the basis for
+describing the group's documented ethical procedures in the Method chapter.

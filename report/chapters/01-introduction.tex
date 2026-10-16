@@ -29,20 +29,19 @@ information about each item.
 Existing services already take different approaches to this organisation. Spotify combines music, podcasts and audiobooks in one service, while keeping the content types identifiable within its listening experience \cite{spotifyaudiobooks2025}. Apple offers separate applications for music, podcasts and audiobooks through Apple Music, Apple Podcasts and Apple Books \cite{appleapps2026}. These examples show that combining audio content is not a new idea, and neither approach is automatically easier for every user. Omnisound instead explores a specific interface question: whether shared search, a common library and clear content categories can make it easier to find saved material and continue unfinished listening without confusing the different audio types.
 
 Omnisound is the project's response to this question: a web-interface
-prototype for finding, saving and resuming audio in one organised place. Its
-concept sheet identifies students who regularly use music, podcast or
-audiobook applications as the intended users, including listeners who use
-several content types and those who mainly listen to music
-\cite[p.~1]{omnisoundconcept}. The concept treats losing track of saved or
-unfinished content as a working problem to investigate through the design
-and evaluation of the interface.
+prototype for finding, saving and resuming audio in one organised place. It
+primarily targets students who regularly listen to music, podcasts or
+audiobooks, including listeners who use several content types and those who
+mainly listen to music. The project investigates how the interface can help
+these listeners keep track of saved and unfinished content.
 
-The high-fidelity prototype is designed primarily for a desktop browser. It
+The initial high-fidelity prototype (V1) is designed primarily for a desktop
+browser. It
 provides a shared search, content-type filters, a library of saved items and a
-Continue Listening area. Its two documented task flows are finding and saving
+Continue Listening area. Its two main task flows are finding and saving
 an item, then locating it in the library, and resuming an unfinished podcast
-or audiobook \cite[Sec.~``Testable user flows'']{omnisoundv1}. These flows give
-the project a specific interaction focus within the broader audio concept.
+or audiobook. These flows give the project a specific interaction focus
+within the broader audio concept.
 
 \section{Purpose}
 \label{sec:purpose}
@@ -96,10 +95,9 @@ Omnisound is an interface prototype. The project focuses on navigation,
 content organisation and the visibility of actions and listening progress.
 It does not implement music-streaming infrastructure, integration with
 commercial audio services, payment or subscription processing, licensing
-systems, backend databases or production account management. This scope is
-consistent with the prototype documentation, which describes a front-end-only
-implementation \cite[opening description]{omnisoundv1}. Limiting the
-implementation in this way allows the design work to concentrate on the
+systems, backend databases or production account management. The prototype
+is implemented only as a front end. Limiting the implementation in this way
+allows the design work to concentrate on the
 selected interactions within the course project.
 
 Search uses a sample catalogue, and the player controls and displayed progress
@@ -120,14 +118,13 @@ evaluation with the intended student group should be considered in relation
 to that group and the tasks tested.
 
 Following the first usability test, a second version of Omnisound was
-developed to address the problems identified during evaluation
-\cite[pp.~15--18]{omnisoundtestv1}. The changes focused on reducing the size
-of the Home banner, making Continue Listening easier to discover, and
-improving the clarity of the Save/Saved control
-\cite[Sec.~``Iteration 2 redesign'']{omnisoundv2}. A second usability test was
+developed to address the problems identified during evaluation. The changes
+focused on reducing the size of the Home banner, making Continue Listening
+easier to discover, and
+improving the clarity of the Save/Saved control. A second usability test was
 then conducted using V2 and the same three core tasks, allowing the group to
-compare the two iterations \cite[pp.~3--4, 13]{omnisoundtestv2}. The testing
-procedures and findings are presented in the Method and Results chapters.
+compare the two iterations. The testing procedures and findings are
+presented in the Method and Results chapters.
 Since Omnisound remains an interface prototype, the conclusions concern the
 tested interactions rather than the technical performance of a complete
 streaming service.
