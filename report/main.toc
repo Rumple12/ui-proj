@@ -31,5 +31,10 @@
 \contentsline {section}{\numberline {4.6}Redesign Decisions}{20}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Hi-Fi Prototype V2}{22}{section.4.7}%
 \contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Discussion}{24}{chapter.6}%
-\contentsline {chapter}{References}{25}{section*.3}%
+\contentsline {section}{\numberline {5.1}Data Collection Results}{23}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Identified User Needs}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Usability Test 1 Results}{24}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Usability Test 2 Results}{25}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Comparison Between Iterations}{26}{section.5.5}%
+\contentsline {chapter}{\numberline {6}Discussion}{28}{chapter.6}%
+\contentsline {chapter}{References}{29}{section*.3}%
