@@ -14,7 +14,15 @@
 \contentsline {section}{\numberline {2.5}User Research and Evaluation Methods}{7}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Research Ethics}{8}{section.2.6}%
 \contentsline {chapter}{\numberline {3}Method}{9}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Design}{10}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Results}{11}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Discussion}{12}{chapter.6}%
-\contentsline {chapter}{References}{13}{section*.3}%
+\contentsline {section}{\numberline {3.1}Overall Design Process}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Initial Design Studio}{9}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Data Collection}{10}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Data Analysis and Requirements}{10}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Prototyping Methods}{11}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Usability Testing}{12}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Iterative Evaluation}{13}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Research Ethics}{14}{section.3.8}%
+\contentsline {chapter}{\numberline {4}Design}{15}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Results}{16}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Discussion}{17}{chapter.6}%
+\contentsline {chapter}{References}{18}{section*.3}%

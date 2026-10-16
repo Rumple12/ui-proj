@@ -1,3 +1,307 @@
 \chapter{Method}
 \label{chap:method}
-\noindent\textbf{TODO:} Chapter not yet written.
+
+\section{Overall Design Process}
+\label{sec:overall-design-process}
+
+The project combined early concept development, design alternatives,
+prototyping and two rounds of usability testing. The concept and paper
+sketches established the intended listening activities and possible ways to
+organise the interface. These ideas were developed into the first
+high-fidelity prototype, V1. Its evaluation provided a basis for a targeted
+redesign, which produced V2. A second usability test then examined the updated
+interface using the same core task goals. Figure~\ref{fig:method-process}
+summarises this sequence.
+
+\begin{figure}[htbp]
+  \centering
+  \begingroup
+  \setlength{\unitlength}{1mm}
+  \small
+  \begin{picture}(150,38)
+    \put(0,24){\framebox(42,12){\shortstack{1. Concept and\\early design}}}
+    \put(54,24){\framebox(42,12){2. V1 prototype}}
+    \put(108,24){\framebox(42,12){3. Usability Test 1}}
+    \put(42,30){\vector(1,0){12}}
+    \put(96,30){\vector(1,0){12}}
+    \put(129,24){\vector(0,-1){12}}
+    \put(108,0){\framebox(42,12){4. Redesign}}
+    \put(54,0){\framebox(42,12){5. V2 prototype}}
+    \put(0,0){\framebox(42,12){6. Usability Test 2}}
+    \put(108,6){\vector(-1,0){12}}
+    \put(54,6){\vector(-1,0){12}}
+  \end{picture}
+  \endgroup
+  \caption{Omnisound's design and evaluation process (original project diagram).}
+  \label{fig:method-process}
+\end{figure}
+
+This approach was suitable because combining audio types raises questions
+about how people understand categories, saved content and listening progress.
+An interactive prototype allowed the group to observe those decisions during
+use. The user-centred approach described in Section~\ref{sec:ucd-iteration}
+therefore informed evaluation of concrete tasks. Iteration connected the
+observed problems to changes and another evaluation; creating a second
+version alone would not have provided that connection.
+
+\section{Initial Design Studio}
+\label{sec:initial-design-studio}
+
+The early design work was documented through concept material and
+low-fidelity sketches. The Session 4 concept sheet set out a shared audio
+interface for students, with finding, saving and returning to content as its
+main activities. It also recorded alternative approaches to organisation:
+separate category tabs compared with a mixed feed and filters, and list
+views compared with cards. These alternatives framed the question of how to
+combine content while keeping its different types recognisable.
+
+The original paper sketches explored a navigation area, grouped audio
+categories and a player layout. Together, they made it possible to examine
+where navigation, content and playback controls could fit before committing
+to a detailed interface. They provided concrete material for discussing
+interface ideas, without requiring each alternative to be fully implemented.
+
+At this stage, the focus was the organisation of activities and information.
+The concept material connected possible layouts to shared search, a common
+library and continued listening. Keeping the drawings simple supported
+consideration of these relationships before visual detail and interactive
+behaviour became the main focus. The sketches and selected design are
+presented in the Design chapter.
+
+\section{Data Collection}
+\label{sec:method-data-collection}
+
+The Project Session 2 alternative assignment documented a qualitative
+interview plan. Its questions concerned existing audio applications,
+features people liked, possible improvements and expectations of a combined
+audio service. The DOCX version focused on students who regularly used audio
+applications and included switching between music, podcasts and audiobooks.
+The submitted PDF also proposed showing interface ideas and asking about
+first impressions, possible workflows and missing functions. Both versions
+specified handwritten notes, with Yacoub Dawli leading the interviews and
+Obid Alrhman Aljabi and Sarshar Chavoshi Rad recording responses.
+
+Qualitative questions suited the aim of understanding listening habits and
+expectations in people's own terms \cite{rosalainterviews}. Asking about
+existing applications could help identify familiar patterns, while questions
+about a combined service could explore what organisation users expected.
+These questions provided a planned starting point for user research.
+
+Completed initial interview responses are not available in the retained
+project material. The plan therefore does not establish an interview sample
+or findings, and no specific interface requirement is attributed to an
+unrecorded interview response. The usability-test records do contain
+participants' background answers and post-test feedback. These documented
+accounts were collected around interaction with V1 and V2 and provided
+context for the observed task behaviour.
+
+\section{Data Analysis and Requirements}
+\label{sec:method-analysis-requirements}
+
+The concept sheet and prototype task flows provide the documented basis for
+the interface requirements. The intended activities were finding audio,
+saving it in a common collection, retrieving saved material and continuing
+unfinished listening. Keeping music, podcasts and audiobooks identifiable
+was a related organisational requirement. Navigation labels, content-type
+information, listening progress and clear action feedback supported these
+activities.
+
+The group concentrated the implementation on paths that could be followed
+from beginning to end. Finding an item was connected to saving it and
+checking the Library, while returning to unfinished content was connected
+to recognising its progress and resuming it. Category browsing provided
+another way to examine whether the different audio types remained clear.
+This made the priorities concrete enough to inform both the prototype and
+its evaluation.
+
+Prioritisation mattered because a course prototype could not implement every
+feature of a commercial audio service. The selected interactions received
+attention ahead of account management, subscriptions and streaming
+infrastructure. The concept's desired qualities, including ease of learning
+and clear organisation, became questions for usability testing. The later
+analysis then used recorded task behaviour and feedback to identify where
+the interface needed refinement. No completed persona or affinity-diagram
+outputs are documented, so these methods are not treated as completed steps
+in the requirements analysis.
+
+\section{Prototyping Methods}
+\label{sec:method-prototyping}
+
+Low-fidelity sketches and high-fidelity prototypes served different purposes.
+The paper drawings explored layouts and relationships between navigation,
+audio categories and playback. They allowed interface ideas to be considered
+before the group invested in detailed screens. This use of simple drawings
+is consistent with the value of low-fidelity prototypes for making design
+changes with limited preparation \cite[Sec.~``Benefits of Low-Fidelity
+Prototypes'']{perniceprototypes}.
+
+V1 was a desktop-first, browser-based prototype implemented as a front end.
+Its main screens were Home, Search, Library, content detail and the full
+player. These screens supported connected task paths rather than only
+showing isolated layouts. Users could search the sample catalogue, open an
+item, change its saved state, find it in the Library and open unfinished
+spoken audio at its displayed progress. This level of interaction allowed
+the tests to examine labels, navigation choices, controls and feedback.
+
+The catalogue and listening states represented the intended experience.
+The prototype did not provide a complete streaming service, so opening the
+player at an existing position was an interface response, not a test of
+audio delivery. V2 retained this implementation scope and the main task
+paths. It provided a revised interface for a second evaluation, while V1
+remained available as the earlier version. Detailed screen descriptions and
+visual comparisons belong in the Design chapter.
+
+\section{Usability Testing}
+\label{sec:method-usability-testing}
+
+Two usability-testing rounds were conducted with three participants in each
+round. P1, P2 and P3 tested V1, while P4, P5 and P6 tested V2. All six were
+students, aged 20--26, who reported regular use of audio applications.
+Their backgrounds included mainly music listening and combinations of music,
+podcasts and audiobooks. These characteristics were relevant to the intended
+student audience. The records describe participants' listening habits but do
+not specify how they were recruited.
+
+The evaluations used the interactive prototypes in a browser on a laptop,
+within the project's desktop-use focus. The V1 plan identifies
+Mittuniversitetet in Sundsvall as the location and specifies that the
+prototype ran locally. The V2 plan also specifies a laptop and browser.
+Participants' usual mobile or computer use was recorded as background
+information; the sessions did not constitute a comparison between devices.
+
+The group divided moderation and observation between its members. Yacoub
+Dawli led the sessions and presented the tasks. Obid Alrhman Aljabi
+documented participant behaviour and comments, while Sarshar Chavoshi Rad
+recorded task times, clicks and navigation observations. This division
+allowed the moderator to attend to the participant while the observers
+recorded the interaction.
+
+Each session began with an introduction to the university project and the
+purpose of the test. After information about participation and consent, the
+moderator asked which audio applications the participant normally used,
+which audio types they listened to, how often they listened and whether
+they normally used mobile devices, computers or both. The three tasks were
+then presented individually. Participants were asked to explain what they
+were looking for, what they expected to happen and anything they found
+unclear while using the interface. This followed the think-aloud approach
+introduced in Section~\ref{sec:research-evaluation}
+\cite[Sec.~``Defining Thinking Aloud Testing'']{nielsenthinkaloud}.
+
+The instructions described the intended goal without specifying the control
+to select. For example, the unfinished-audiobook task did not tell
+participants to use Continue Listening. This left their choice of route
+available for observation. When prompting was needed, the moderator asked
+neutral questions about what the participant was thinking or expected.
+Participants were encouraged to try what made sense to them instead of
+being immediately directed to a solution.
+
+Table~\ref{tab:usability-tasks} summarises the three core tasks and the
+completion criteria recorded in the test documentation. The first task
+included checking that the saved item could be found again. The second
+concerned returning to an existing listening position, while the third
+examined access to one content category. These tasks covered the main
+interaction priorities without requiring every prototype function to be
+tested.
+
+\begin{table}[htbp]
+  \centering
+  \caption{Core task goals and completion criteria used in both testing rounds.}
+  \label{tab:usability-tasks}
+  \begingroup
+  \small
+  \renewcommand{\arraystretch}{1.25}
+  \begin{tabular}{@{}p{0.12\textwidth}p{0.36\textwidth}p{0.43\textwidth}@{}}
+    \hline
+    \textbf{Task} & \textbf{Goal} & \textbf{Completion criterion} \\
+    \hline
+    1 & Find and save Weezer for later. &
+    The item is saved and can be found in the Library. \\[3pt]
+    2 & Find an unfinished audiobook and continue listening. &
+    The player opens at the existing progress position. \\[3pt]
+    3 & Find where to browse podcasts. &
+    The Podcasts category is reached. \\
+    \hline
+  \end{tabular}
+  \endgroup
+\end{table}
+
+The same core goals and completion criteria were used in the second round
+so that the group could compare the two versions without replacing the
+activities being examined. The wording allowed different valid routes to
+the goal. Finding content through a category, for example, could still meet
+the first task's criterion. The records could therefore distinguish task
+completion from the particular route chosen.
+
+The task records covered completion, elapsed time in seconds, click counts
+and navigation paths, alongside notes on hesitation, incorrect actions and
+any need for help. Relevant think-aloud comments accompanied these observations.
+Completion related to effectiveness, while time, clicks and routes provided
+information about effort and efficiency. Hesitation and comments helped
+examine whether controls were discoverable and whether their feedback was
+understood. These records supported interpretation of the measured values;
+a time or click count alone did not explain a difficulty.
+
+Post-test questions covered the overall impression, easy or confusing parts,
+unclear labels, missing functions and suggested changes. The V2 records also
+included questions about Save and discoverability. The group reviewed these
+responses alongside the task observations in each round. This connected
+participants' impressions to what happened during interaction. Individual
+accounts, measurements and the comparison of results are presented in the
+Results chapter.
+
+\section{Iterative Evaluation}
+\label{sec:method-iterative-evaluation}
+
+After the first evaluation, the group brought together task records,
+navigation paths and post-test comments to identify issues for redesign.
+The V1 analysis linked each identified issue to supporting observations,
+its effect on the tested task and a proposed action. The prioritised problem
+list distinguished concerns about reaching or discovering task-related
+content from smaller concerns about visual clarity. It also identified
+parts of the interface to retain.
+
+The resulting redesign focused on Continue Listening visibility, the height
+of the Home introductory area and the clarity of the Save/Saved control.
+These areas connected the recorded concerns to specific changes that could
+be examined in another test. The basic navigation, categories, Library and
+core task goals were kept consistent. This limited the scope of the redesign
+and retained the main interaction context for comparison.
+
+V2 was then evaluated with new participants using the procedure and tasks
+described in Section~\ref{sec:method-usability-testing}. Using different
+participants avoided repeating the tasks with people who had already learned
+the V1 paths. The second-round analysis considered the same completion
+criteria, measures, routes and participant feedback, including observations
+related to the targeted changes.
+
+This comparison concerned the tested prototype interactions. With three
+different participants per round, differences between the records cannot
+be attributed solely to the redesign or generalised to all students. The
+purpose was to examine the revised design against the earlier concerns,
+without assuming that changing the interface established an improvement.
+
+\section{Research Ethics}
+\label{sec:method-research-ethics}
+
+The participant introductions explained that the group was evaluating the
+interface, not the person using it. They described the university project,
+the observation and written note-taking, and the intended use of the
+information. Participants were told that taking part was voluntary, that
+they could stop at any time and that they could raise questions or
+discomfort. The moderator then asked whether they were comfortable
+participating, and the records include agreement before the tasks.
+This approach addressed informed and voluntary participation as discussed
+in Section~\ref{sec:research-ethics} and in Vetenskapsr\aa{}det's guidance
+\cite[pp.~62--63]{vetenskapsradet2024}.
+
+The introductions stated that written notes would be anonymous and used for
+the university project. The retained records identify participants as
+P1--P6 instead of using personal names. Background information about
+listening habits and device use provided context for the tests without
+requiring names in the report.
+
+Accurate reporting also informed the treatment of the material. The testing
+records distinguish observations and participant comments from the group's
+interpretations. This distinction is maintained when describing the method
+and reporting the results, consistent with the responsibility to communicate
+research honestly \cite[pp.~11--12]{vetenskapsradet2024}.
