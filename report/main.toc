@@ -23,6 +23,13 @@
 \contentsline {section}{\numberline {3.7}Iterative Evaluation}{13}{section.3.7}%
 \contentsline {section}{\numberline {3.8}Research Ethics}{14}{section.3.8}%
 \contentsline {chapter}{\numberline {4}Design}{15}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Results}{16}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Discussion}{17}{chapter.6}%
-\contentsline {chapter}{References}{18}{section*.3}%
+\contentsline {section}{\numberline {4.1}Initial Design Alternatives}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Lo-Fi Sketches}{15}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Omnisound Interface Structure}{17}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Hi-Fi Prototype V1}{18}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Design Decisions and HCI Connections}{20}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Redesign Decisions}{20}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Hi-Fi Prototype V2}{22}{section.4.7}%
+\contentsline {chapter}{\numberline {5}Results}{23}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Discussion}{24}{chapter.6}%
+\contentsline {chapter}{References}{25}{section*.3}%

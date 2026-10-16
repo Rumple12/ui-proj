@@ -1,3 +1,275 @@
 \chapter{Design}
 \label{chap:design}
-\noindent\textbf{TODO:} Chapter not yet written.
+\section{Initial Design Alternatives}
+\label{sec:design-alternatives}
+
+The early concept considered separate audio categories and a mixed feed
+with filters. Categories give listeners a clear starting point when they
+already know which audio type they want. A mixed feed supports browsing
+different types together, but needs clear labels and filters to distinguish
+them.
+
+Cards and lists offered another choice. Cards leave room for artwork and
+visual recognition, but fewer items fit on the screen. Lists show titles,
+creators and other information more compactly. Their suitability depends
+on whether the user is browsing or looking for a particular item.
+
+The chosen interface combines these ideas: cards in separate Home sections,
+a list of search results and one Library with content filters. Each audio
+category has a browsing route, while saving follows a shared pattern.
+This direction still needed evaluation; choosing categories or cards did
+not establish that they would always be easier to use.
+
+\section{Lo-Fi Sketches}
+\label{sec:design-sketches}
+
+Figure~\ref{fig:design-sketches} presents the group's three original pencil
+sketches. Sketch~(a) places a labelled navigation area on the left, with
+entries for audio categories, playlists, options, Library and a store. The
+area on the right contains rough content blocks and playback symbols.
+Sketch~(b) concentrates on browsing: rows labelled music, podcasts and books
+contain small drawings of covers. Sketch~(c) explores a player around
+Weezer, with central artwork, a large play symbol, neighbouring controls and
+a horizontal volume control below.
+
+These drawings made the layout ideas visible before the interactive screens
+were built. They helped the group consider how much space navigation,
+content and playback would need. Their rough appearance also left room to
+change the arrangement without first producing detailed visual designs.
+They were starting points rather than specifications: for example, the
+store shown in sketch~(a) was not included in the tested prototype.
+
+\begin{figure}[!p]
+  \centering
+  {\small\textbf{(a) Navigation and content layout}\par}
+  \includegraphics[width=0.93\textwidth]{figures/lo-fi/initial-sketch-1.png}\par
+  \vspace{2mm}
+  {\small\textbf{(b) Audio categories and cover cards}\par}
+  \includegraphics[width=0.93\textwidth]{figures/lo-fi/initial-sketch-2.png}\par
+  \vspace{2mm}
+  {\small\textbf{(c) Player layout}\par}
+  \includegraphics[width=0.93\textwidth]{figures/lo-fi/initial-sketch-3.jpg}
+  \caption{The three original project sketches, exploring navigation,
+  category rows and playback. The photographs retain their original content
+  and proportions.}
+  \label{fig:design-sketches}
+\end{figure}
+
+\clearpage
+\section{Omnisound Interface Structure}
+\label{sec:design-structure}
+
+Omnisound has five main screen types: Home, Search, Library, content detail
+and the full player. Persistent navigation provides Home, Search and
+Library, followed by separate Music, Podcasts and Audiobooks routes. These
+remain available when opening content or playback.
+
+Home includes Continue Listening for unfinished spoken audio. Search covers
+the sample catalogue, with type filters. Library collects saved items and
+offers similar filters. Details provide Save and Play or Resume. The full
+player groups listening controls; a smaller player remains available during
+browsing after playback opens.
+
+Figure~\ref{fig:design-search-library} shows Weezer in Search and, after
+saving, in Library. Results use lists for scanning, while Library uses covers
+and titles for recognition. Shared destinations and controls connect the
+audio types without requiring different saving and playback patterns.
+
+\begin{figure}[!htbp]
+  \centering
+  {\small\textbf{(a) V1 Search: finding Weezer}\par}
+  \includegraphics[width=0.90\textwidth]{figures/v1/search-focus.png}\par
+  \vspace{3mm}
+  {\small\textbf{(b) V1 Library: Weezer after saving}\par}
+  \includegraphics[width=0.90\textwidth]{figures/v1/library-focus.png}
+  \caption{Search and Library in the real V1 prototype. The captures are
+  cropped to show the query, filters, result and saved collection at a
+  readable size.}
+  \label{fig:design-search-library}
+\end{figure}
+
+\clearpage
+\section{Hi-Fi Prototype V1}
+\label{sec:design-v1}
+
+V1 developed the sketches into the first interactive high-fidelity
+prototype. Instead of viewing isolated drawings, users could follow the
+main activities from one screen to another. The category rows and artwork
+remained part of the design, while labelled buttons and visible states made
+searching, saving and resuming available for testing.
+
+The Home screen in Figure~\ref{fig:design-v1-home} starts with a large
+introductory banner. Below it, a small Continue Listening label sits above
+the heading ``Back in progress''. The unfinished items show their audio
+type, title, creator and listening progress. Separate Music, Podcasts and
+Audiobooks sections follow further down the page. The sidebar provides a
+direct route to each category even when its Home section is below the
+visible area.
+
+\begin{figure}[!htbp]
+  \centering
+  \includegraphics[width=\textwidth]{figures/v1/home-overview.png}
+  \caption{The real V1 Home screen, showing the persistent navigation,
+  large introductory banner and unfinished content. The capture shows the
+  upper part of Home; further category rows continue below.}
+  \label{fig:design-v1-home}
+\end{figure}
+
+One important workflow begins by searching for Weezer and opening the
+result. Its detail screen places Save beside Play, as shown in
+Figure~\ref{fig:design-v1-workflows}(a). Selecting Save changes the label to
+Saved and briefly displays ``Weezer saved to your Library''. Opening Library
+then shows the saved item, as in Figure~\ref{fig:design-search-library}(b).
+The connection matters because saving should provide a route back to the
+content, rather than only changing a button on the current screen.
+
+\clearpage
+The other main workflow returns to unfinished audio. A user can open
+\emph{The Left Hand of Darkness} from Continue Listening and recognise its
+existing progress on the detail screen. Resume then opens the full player
+at that displayed position. Figure~\ref{fig:design-v1-workflows}(b--c)
+shows these connected states. The player includes progress, play/pause,
+volume and spoken-audio speed controls. Its sample content and progress
+represent interface states; they do not demonstrate a complete streaming
+service.
+
+\begin{figure}[!htbp]
+  \centering
+  \begin{minipage}[t]{0.48\textwidth}
+    \centering
+    {\small\textbf{(a) Weezer detail}\par}
+    \includegraphics[width=\linewidth]{figures/v1/detail-focus.png}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.48\textwidth}
+    \centering
+    {\small\textbf{(b) Unfinished audiobook}\par}
+    \includegraphics[width=\linewidth]{figures/v1/resume-focus.png}
+  \end{minipage}\par
+  \vspace{3mm}
+  {\small\textbf{(c) Full player after Resume}\par}
+  \includegraphics[width=0.76\textwidth]{figures/v1/player-focus.png}
+  \caption{Real V1 captures of the two workflows: Save beside Play on the
+  Weezer detail page, progress and Resume on the audiobook detail page,
+  and the resulting full-player view. Crops focus on the relevant content
+  and controls.}
+  \label{fig:design-v1-workflows}
+\end{figure}
+
+\clearpage
+\section{Design Decisions and HCI Connections}
+\label{sec:design-hci}
+
+The principles in Section~\ref{sec:interface-principles} guided concrete
+parts of the interface. The sidebar labels and categories in
+Figure~\ref{fig:design-v1-home} support visibility. Labels such as Music
+and Audiobook explain what an item
+is before it is opened, without relying only on artwork or colour.
+
+Feedback connects actions to outcomes. Saving changes the label and displays
+a confirmation naming Library. Navigation highlights show the current
+destination, while play/pause controls reflect the player state. However,
+clear feedback after saving does not ensure that Save is easy to find
+beforehand, as the first test showed.
+
+Consistency links the audio types. Their cards open similarly arranged
+detail pages, with Save beside Play or Resume. The lists below contain
+tracks, episodes or chapters as appropriate, while the main interaction
+pattern stays familiar. This connects expectations and behaviour as discussed in
+Section~\ref{sec:cognition-mental-models}.
+
+Recognition also shaped the screens. Titles and covers help users identify
+Library items, and progress bars identify unfinished audio. These cues
+reduce the need to remember exact titles or listening positions. For
+affordances and signifiers, the buttons make actions possible, while their
+labels and icons communicate those actions. Play and Resume state what will
+happen; the heart with Save gives the icon a written meaning. The redesign
+addressed cues that needed more emphasis.
+
+\section{Redesign Decisions}
+\label{sec:design-redesign}
+
+The first usability test showed that some participants looked for unfinished
+audio through Audiobooks or Library instead of Continue Listening. Those
+routes worked, but the intended Home shortcut was being overlooked. The
+group therefore focused the redesign on making that section easier to
+notice, reducing the space taken by the introduction and clarifying the
+saving control.
+
+Figure~\ref{fig:design-home-comparison} shows the Home changes. V2 reduces
+the banner's height and the space before unfinished content. It also
+replaces the small Continue Listening label and ``Back in progress'' heading
+with a single, larger Continue Listening heading and a lime marker. The
+unfinished cards and their progress information remain. The intention was
+to bring attention to content that users could return to, while keeping a
+short introduction to Omnisound.
+
+\begin{figure}[!p]
+  \centering
+  {\small\textbf{(a) V1 Home}\par}
+  \includegraphics[width=0.92\textwidth]{figures/v1/home-comparison.png}\par
+  \vspace{3mm}
+  {\small\textbf{(b) V2 Home}\par}
+  \includegraphics[width=0.92\textwidth]{figures/v2/home-comparison.png}
+  \caption{Home before and after the redesign. Both real prototypes were
+  captured at a $1440\times900$ viewport and 100\% zoom, then cropped to
+  the same region of the banner and first two unfinished cards, at the same
+  scale. The smaller banner and
+  revised heading bring unfinished content higher on V2 Home.}
+  \label{fig:design-home-comparison}
+\end{figure}
+
+The Save control received a smaller change. The first test recorded a brief
+hesitation in locating it beside Play, so V2 strengthened its border and
+gave the unsaved and saved states more distinct appearances. The label and
+confirmation message were retained because they explained the action's
+result. Figure~\ref{fig:design-save-comparison} shows the revised states.
+
+The group kept the sidebar, Search, Library and audio categories because
+the first evaluation supported these routes. Library also provided another
+way to reach unfinished content. The second test examined whether the
+focused changes helped during use; appearance alone could not establish
+that.
+
+\clearpage
+\section{Hi-Fi Prototype V2}
+\label{sec:design-v2}
+
+V2 keeps the five main screen types and navigation structure of V1.
+The Home comparison in Figure~\ref{fig:design-home-comparison} also shows
+the final arrangement: the introduction occupies less space, and the more
+direct Continue Listening heading gives unfinished content greater emphasis.
+Users can still search, browse categories or open Library through the same
+destinations.
+
+On the detail page, the unsaved control uses an outlined heart and the label
+Save. After saving, it shows a filled heart, lime styling and Saved. The
+comparison in Figure~\ref{fig:design-save-comparison} captures the same
+Weezer page before and after selecting Save. The control stays beside Play,
+so its position remains familiar while its changed appearance communicates
+the current state. The brief Library confirmation is also retained, giving
+immediate feedback as well as a state that remains visible on the page.
+
+\begin{figure}[!htbp]
+  \centering
+  \begin{minipage}[t]{0.43\textwidth}
+    \centering
+    {\small\textbf{(a) Before saving}\par}
+    \includegraphics[width=\linewidth]{figures/v2/save-focus.png}
+  \end{minipage}\hspace{0.05\textwidth}
+  \begin{minipage}[t]{0.43\textwidth}
+    \centering
+    {\small\textbf{(b) After saving}\par}
+    \includegraphics[width=\linewidth]{figures/v2/saved-focus.png}
+  \end{minipage}
+  \caption{The Save and Saved states in the real V2 prototype, captured
+  before and after saving the same item. Matching crops preserve the detail
+  context; only the saving control changes. The temporary confirmation has
+  disappeared in the second capture.}
+  \label{fig:design-save-comparison}
+\end{figure}
+
+The group evaluated V2 in a second usability test using the same core tasks:
+finding and saving content, resuming unfinished audio and browsing podcasts.
+This completed the sequence from V1 evaluation to redesign and another test.
+Chapter~\ref{chap:results} presents the recorded outcomes and comparison
+between the two rounds.
