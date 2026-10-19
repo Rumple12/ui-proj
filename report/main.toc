@@ -37,4 +37,10 @@
 \contentsline {section}{\numberline {5.4}Usability Test 2 Results}{25}{section.5.4}%
 \contentsline {section}{\numberline {5.5}Comparison Between Iterations}{26}{section.5.5}%
 \contentsline {chapter}{\numberline {6}Discussion}{28}{chapter.6}%
-\contentsline {chapter}{References}{29}{section*.3}%
+\contentsline {section}{\numberline {6.1}Interpretation of Results}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Connection Between Theory and Findings}{28}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Strengths and Limitations}{29}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Evaluation of Methods}{30}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Future Work}{30}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Conclusion}{31}{section.6.6}%
+\contentsline {chapter}{References}{32}{section*.3}%
