@@ -1,0 +1,422 @@
+{
+  "pdf": "Obid_Alrhman_Aljabi_Session4_Alternative.pdf",
+  "pages": 2,
+  "page_format": "A4 portrait",
+  "student": "Obid Alrhman Aljabi",
+  "group": 1,
+  "course": "DT168G / IU127G",
+  "supplied_wording_verified": true,
+  "sketches": [
+    {
+      "file": "initial-sketch-1.png",
+      "original_pixels": [
+        1760,
+        791
+      ],
+      "crop_box": [
+        175,
+        15,
+        1535,
+        780
+      ],
+      "cropped_pixels": [
+        1360,
+        765
+      ],
+      "display_points": [
+        340,
+        191.25
+      ],
+      "aspect_ratio_preserved": true,
+      "effective_dpi": 288.0,
+      "sha256": "df0a10464392f738dac594a03ce67fc68669f2e5fb589a89dc913bf4180b2d19"
+    },
+    {
+      "file": "initial-sketch-2.png",
+      "original_pixels": [
+        1760,
+        791
+      ],
+      "crop_box": [
+        230,
+        0,
+        1475,
+        791
+      ],
+      "cropped_pixels": [
+        1245,
+        791
+      ],
+      "display_points": [
+        340,
+        216.01606425702812
+      ],
+      "aspect_ratio_preserved": true,
+      "effective_dpi": 263.6470588235294,
+      "sha256": "b5ff8d75709ad62e6da6a4bdff52e479b6c8f54f0d15ea8735cedea2260a26f8"
+    },
+    {
+      "file": "initial-sketch-3.jpg",
+      "original_pixels": [
+        817,
+        367
+      ],
+      "crop_box": [
+        70,
+        15,
+        700,
+        365
+      ],
+      "cropped_pixels": [
+        630,
+        350
+      ],
+      "display_points": [
+        340,
+        188.88888888888889
+      ],
+      "aspect_ratio_preserved": true,
+      "effective_dpi": 133.41176470588235,
+      "sha256": "dfbb314f58d51ae0870d2f68c07eeec6cfe5e7d5dc39b6d1930578f7a94a594b"
+    }
+  ],
+  "page_text_bottom_points": [
+    201.3897637795277,
+    63.73481063361069
+  ],
+  "layout": [
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Session 4 - Alternative Assignment",
+      "x": 44,
+      "y": 774.8897637795277,
+      "width": 507.27559055118115,
+      "height": 23
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Omnisound: Low-Fidelity Prototype",
+      "x": 44,
+      "y": 754.8897637795277,
+      "width": 507.27559055118115,
+      "height": 19
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Student: Obid Alrhman Aljabi",
+      "x": 44,
+      "y": 731.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Group: 1     Course: DT168G / IU127G",
+      "x": 44,
+      "y": 717.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "1. About Omnisound",
+      "x": 44,
+      "y": 686.8897637795277,
+      "width": 507.27559055118115,
+      "height": 16
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Omnisound is a web-based audio interface that brings music, podcasts and audiobooks together in one place. The idea is to make it easier for people to find audio, save something they like and continue listening to something they have not finished. The interface is mainly aimed at students who regularly use audio applications.",
+      "x": 44,
+      "y": 638.3897637795277,
+      "width": 507.27559055118115,
+      "height": 43.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "2. Functions Needed for the Prototype",
+      "x": 44,
+      "y": 609.3897637795277,
+      "width": 507.27559055118115,
+      "height": 16
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "The main functions I want to include are:",
+      "x": 44,
+      "y": 589.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "1. Home page",
+      "x": 44,
+      "y": 568.3897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "A starting page with different audio categories and a section for unfinished listening.",
+      "x": 44,
+      "y": 553.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "2. Search",
+      "x": 44,
+      "y": 534.3897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "A way to find music, podcasts and audiobooks without browsing through every category.",
+      "x": 44,
+      "y": 519.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "3. Music, Podcasts and Audiobooks",
+      "x": 44,
+      "y": 500.3897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Separate sections that make it clear what type of audio the user is browsing.",
+      "x": 44,
+      "y": 485.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "4. Save and Library",
+      "x": 44,
+      "y": 466.3897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Users should be able to save an item and find it again in their Library.",
+      "x": 44,
+      "y": 451.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "5. Continue Listening",
+      "x": 44,
+      "y": 432.3897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "A section where users can return to unfinished podcasts or audiobooks.",
+      "x": 44,
+      "y": 417.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "6. Audio player",
+      "x": 44,
+      "y": 398.3897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "Basic playback controls such as Play, Pause, a progress bar and volume.",
+      "x": 44,
+      "y": 383.8897637795277,
+      "width": 507.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "These functions are the main focus because they let users complete common listening activities without making the interface unnecessarily complicated.",
+      "x": 44,
+      "y": 350.8897637795277,
+      "width": 507.27559055118115,
+      "height": 29.0
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "3. Horizontal or Vertical Design?",
+      "x": 44,
+      "y": 321.8897637795277,
+      "width": 507.27559055118115,
+      "height": 16
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "For this early prototype, I chose a horizontal design. This means showing several important parts of the application without adding every small detail or making all functions work.",
+      "x": 44,
+      "y": 287.8897637795277,
+      "width": 507.27559055118115,
+      "height": 29.0
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "I think this approach suits Omnisound because the first thing I want to explore is how the interface is organised. Users need to understand where to find music, podcasts, audiobooks, Search and Library.",
+      "x": 44,
+      "y": 251.8897637795277,
+      "width": 507.27559055118115,
+      "height": 29.0
+    },
+    {
+      "page": 1,
+      "type": "text",
+      "text": "A vertical design would focus on fewer functions in greater detail. That could be useful later when testing a specific task, such as saving an item or resuming an audiobook. For the initial sketches, however, a horizontal design gives a better overview of the application.",
+      "x": 44,
+      "y": 201.3897637795277,
+      "width": 507.27559055118115,
+      "height": 43.5
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "Low-Fidelity Sketch Prototype",
+      "x": 44,
+      "y": 774.8897637795277,
+      "width": 507.27559055118115,
+      "height": 23
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "These early sketches were developed as part of our group's Omnisound design work. They explore the general layout, navigation and playback controls before moving on to the interactive prototype.",
+      "x": 44,
+      "y": 738.8897637795277,
+      "width": 507.27559055118115,
+      "height": 29.0
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "A. Main interface and navigation",
+      "x": 44,
+      "y": 694.8897637795277,
+      "width": 151.27559055118115,
+      "height": 29.0
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "An early idea for the main layout, with navigation on the left and audio content on the right.",
+      "x": 44,
+      "y": 647.3897637795277,
+      "width": 151.27559055118115,
+      "height": 40.5
+    },
+    {
+      "page": 2,
+      "type": "image",
+      "file": "initial-sketch-1.png",
+      "x": 211.27559055118115,
+      "y": 532.6397637795277,
+      "width": 340,
+      "height": 191.25
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "B. Browsing audio categories",
+      "x": 44,
+      "y": 506.1397637795277,
+      "width": 151.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "A simple layout for browsing music, podcasts and audiobooks using separate sections and cover images.",
+      "x": 44,
+      "y": 445.1397637795277,
+      "width": 151.27559055118115,
+      "height": 54.0
+    },
+    {
+      "page": 2,
+      "type": "image",
+      "file": "initial-sketch-2.png",
+      "x": 211.27559055118115,
+      "y": 304.6236995224996,
+      "width": 340,
+      "height": 216.01606425702812
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "C. Playback controls",
+      "x": 44,
+      "y": 278.1236995224996,
+      "width": 151.27559055118115,
+      "height": 14.5
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "An early player sketch with cover artwork and basic playback controls.",
+      "x": 44,
+      "y": 230.62369952249958,
+      "width": 151.27559055118115,
+      "height": 40.5
+    },
+    {
+      "page": 2,
+      "type": "image",
+      "file": "initial-sketch-3.jpg",
+      "x": 211.27559055118115,
+      "y": 103.73481063361069,
+      "width": 340,
+      "height": 188.88888888888889
+    },
+    {
+      "page": 2,
+      "type": "text",
+      "text": "The sketches helped us decide how to organise the interface and which functions should be easy to find. They were starting points for the interactive version of Omnisound.",
+      "x": 44,
+      "y": 63.73481063361069,
+      "width": 507.27559055118115,
+      "height": 29.0
+    }
+  ]
+}
