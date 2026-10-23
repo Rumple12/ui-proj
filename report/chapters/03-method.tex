@@ -80,7 +80,51 @@ During the V1 and V2 usability tests, we also asked participants about their lis
 \section{Data Analysis and Requirements}
 \label{sec:method-analysis-requirements}
 
-The group organised the early interview observations into recurring themes using an affinity-diagram approach: finding content, organising saved items, keeping audio types distinguishable, continuing unfinished listening, and spoken-audio functions. These themes informed the two personas in Appendix~\ref{app:personas}, three initial usage scenarios and a list of prioritised requirements. The first priorities were shared search, distinct categories, a saved Library and visible progress with a direct resume action. Hiding unwanted Home categories and spoken-audio playback speed were also considered, while bookmarks, a sleep timer and offline use were placed outside the first prototype focus. The early results are presented separately in Chapter~\ref{chap:results}.
+The group organised the early interview observations into recurring themes
+using an affinity-diagram approach: finding content, managing saved items,
+keeping audio types distinguishable, continuing unfinished listening and
+supporting spoken-audio functions. Table~\ref{tab:method-requirements}
+shows how the group prioritised possible features using the interview notes.
+I1--I5 refer to the five early interviewees, who were separate from the
+later usability-test participants P1--P6.
+
+\begin{table}[!htbp]
+  \centering
+  \caption{Initial requirements and priorities based on the campus interviews.}
+  \label{tab:method-requirements}
+  \begingroup
+  \small
+  \renewcommand{\arraystretch}{1.15}
+  \begin{tabular}{@{}p{0.055\textwidth}p{0.11\textwidth}p{0.57\textwidth}p{0.13\textwidth}@{}}
+    \hline
+    \textbf{ID} & \textbf{Priority} & \textbf{Proposed requirement} & \textbf{Basis} \\
+    \hline
+    R1 & Must & One search entry point across all three audio types, with labels and filters. & I1, I2, I5 \\
+    R2 & Must & Clearly distinguish Music, Podcasts and Audiobooks in navigation and results. & I1, I3, I5 \\
+    R3 & Must & A shared Library for saving, finding and removing identifiable audio items. & I1, I2, I5 \\
+    R4 & Must & Show unfinished spoken audio and its progress, with a direct Resume action. & I2, I4 \\
+    R5 & Should & Let users hide unwanted Home categories without removing saved items. & I3 \\
+    R6 & Should & Provide clear playback-speed controls for spoken audio. & I4 \\
+    R7 & Later & Explore bookmarks and a sleep timer. & I4 \\
+    R8 & Later & Investigate offline access and how downloads could be presented. & I4 \\
+    \hline
+  \end{tabular}
+  \endgroup
+\end{table}
+
+The Must requirements (R1--R4) guided the first prototype's main
+interactions. Should requirements were useful secondary priorities, and
+Later features were kept outside the initial evaluation focus. These
+priorities were planning decisions, not a claim that every proposed
+feature was implemented or tested.
+
+The findings informed the two personas in Appendix~\ref{app:personas}
+and three design scenarios: finding and saving a podcast, returning to
+an unfinished audiobook, and finding saved music without unrelated
+content in the way. The scenarios described intended uses derived
+from the interviews, not additional observed participant tasks.
+The early findings are reported separately in
+Section~\ref{sec:results-initial-interviews}.
 
 The initial Omnisound concept and the chosen prototype tasks helped the group decide which functions were most important. The interface needed to let users find audio content, save items for later, return to their saved collection and continue listening to something they had not finished. It was also important that users could easily tell the difference between music, podcasts and audiobooks, even though all three were available in the same application.
 
